@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "api-gateway"
+version = "0.1.0"
+description = ""
+authors = ["NxtaSunstrike <unixalle765@mail.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.114.1"
+pydantic-settings = "^2.5.2"
+uvicorn = "^0.30.6"
+gunicorn = "^23.0.0"
+aio-pika = "^9.4.3"
+faststream = {extras = ["all"], version = "^0.5.23"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
